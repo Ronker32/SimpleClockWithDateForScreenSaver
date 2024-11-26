@@ -46,7 +46,6 @@
     <!-- Visit This URL https://sharpweather.com/widget/r/#c=cbkg=rgb(69,90,100)&c=codd=rgb(84,110,122) and edit your Weather Widget. Else, if you don't want it, delete or comment out this weather block. -->
 
     <!-- Weather block Starts -->
-    <div id="idd943408dce75b" a='{"t":"r","v":"1.2","lang":"en","locs":[4264],"ssot":"c","sics":"ms","cbkg":"rgb(69,90,100)","cfnt":"#FFFFFF","codd":"rgb(84,110,122)","cont":"#E0E0E0","eln":"bool","stof":"5","sfnt":"a"}'>Weather Data Source: <a href="https://sharpweather.com/weather_enschede/30_days/">weather 30 days Enschede</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=idd943408dce75b"></script>
     <!-- Weather block Ends -->
 
 
@@ -90,7 +89,7 @@
             const day = days[now.getDay()];
             const date = now.toLocaleDateString('nl-NL');
 
-            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = `${hours}:${minutes}`;
             document.getElementById('date').textContent = `${day} ${date}`;
         }
 
